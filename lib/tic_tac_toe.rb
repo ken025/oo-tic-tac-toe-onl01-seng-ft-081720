@@ -73,4 +73,6 @@ end
   end
   
   def full? 
+    !won? && full?
+  end
 end 
