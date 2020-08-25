@@ -79,4 +79,7 @@ end
   def draw?
      !won? && full?
    end 
+   
+   def over? 
+     
 end 
