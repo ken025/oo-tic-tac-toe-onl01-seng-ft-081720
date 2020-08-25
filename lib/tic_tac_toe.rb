@@ -9,6 +9,18 @@ class TicTacToe
     [0, 4, 8],
     [6, 4, 2]
   ]
+  
+ def play
+  until over? == true
+    turn
+  end
+
+  if won?
+    puts "Congratulations #{winner}!"
+  elsif draw?
+    puts "Cat's Game!"
+  end
+end
 
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
@@ -89,17 +101,5 @@ end
        @board[won?[0]] == "X" ? "X" : "O"
      end 
    end 
-   
-  def play
-  until over? == true
-    turn
-  end
-
-  if won?
-    puts "Congratulations #{winner}!"
-  elsif draw?
-    puts "Cat's Game!"
-  end
-end
 
 end 
