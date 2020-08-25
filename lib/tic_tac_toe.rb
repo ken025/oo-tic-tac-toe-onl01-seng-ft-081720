@@ -73,6 +73,6 @@ end
   end
   
   def full? 
-    
+    !@board.any? {|
   end
 end 
