@@ -1,2 +1,4 @@
-class Game 
+class TicTacToe 
+  def initialize
   
+end 
