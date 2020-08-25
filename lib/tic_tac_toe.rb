@@ -86,5 +86,5 @@ end
    
    def winner 
      if won? 
-       @board 
+       @board[won?[0]]
 end 
