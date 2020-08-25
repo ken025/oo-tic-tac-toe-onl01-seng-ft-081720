@@ -34,6 +34,7 @@ end
     !(@board[index] == nil? || @board[index] == " ")
   end
   
-  def vails_move?
+  def vaild_move?
     index.between(0,8) && !position_taken?[index]
+  end 
 end 
