@@ -1,1 +1,2 @@
-filter_parameter_logging
+class Game 
+  
