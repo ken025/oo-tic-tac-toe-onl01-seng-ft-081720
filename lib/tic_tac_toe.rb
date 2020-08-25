@@ -73,6 +73,6 @@ end
   end
   
   def full? 
-     !@board.any?{|x| x == "" || x == " "}
+    !@board.any? {|X| x == " " || x == " "}
   end
 end 
