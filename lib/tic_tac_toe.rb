@@ -35,4 +35,5 @@ end
   end
   
   def vails_move?
+    index.between(0,8) && index
 end 
